@@ -1,0 +1,39 @@
+#person:hover{
+  background-color: lightgray;
+}
+
+#person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    border:2px solid #ECF0F1;
+}
+
+#headerContainer{
+  border:2px solid #ECF0F1;
+  margin: auto;
+  width: 60%;
+}
+
+#inputField{
+  margin: auto;
+  width: 50%;
+}
+
+#header{
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+}
+
+#pic{
+  padding: 9px;
+  flex: 0 0 13%
+}
+
+#info{
+  flex:1;
+  font-family: 'Poppins', sans-serif;
+}
