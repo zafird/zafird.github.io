@@ -4,81 +4,27 @@
     <title >Artist Directory</title>
     <link href="ui_css.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Alata|Poppins&display=swap" rel="stylesheet">
+    <script src="javascript.js"defer></script>
   </head>
   <body id="main">
     <div id="headerContainer">
-    <div>
-      <h2 id="header">Artist Directory</h2>
+      <div>
+        <h2 id="header">Artist Directory</h2>
+      </div>
+      <div id="inputAndButtons">
+        <div id="inputField"><input type="text" id="input" name="input" 
+          size="24"></div>
+        <button id= "addArtist" onclick="addArtist()">
+          Add Artist
+        </button>
+      </div>
     </div>
-    <div id="inputField"><input type="text" id="input" name="input" 
-       size="24"></div>
-    </div>
+    
     <div id ="container">
-      <div id="person">
-        <div id = "pic">
-          <img src="https://randomuser.me/api/portraits/med/women/7.jpg" alt="Person 1">
-        </div>
-        <div id="info">
-          <div id="name">
-            Jane Doe
-          </div>
-          <div>
-            Boston University
-          </div>
-        </div>
-      </div>
-      <div id="person">
-        <div id = "pic">
-          <img src="https://randomuser.me/api/portraits/med/men/8.jpg" alt="Person 2">
-        </div>
-        <div id="info">
-          <div id="name">
-            John Doe
-          </div>
-          <div>
-            Princeton University
-          </div>
-        </div>
-      </div>
-      <div id="person">
-        <div id = "pic">
-          <img src="https://randomuser.me/api/portraits/med/women/17.jpg" alt="Person 3">
-        </div>
-        <div id="info">
-          <div id="name">
-            Erin W.
-          </div>
-          <div>
-            SFU
-          </div>
-        </div>
-      </div>
-      <div id="person">
-        <div id = "pic">
-          <img src="https://randomuser.me/api/portraits/med/women/10.jpg" alt="Person 4">
-        </div>
-        <div id="info">
-          <div id="name">
-            Mary C.
-          </div>
-          <div>
-            UBC
-          </div>
-        </div>
-      </div>
-      <div id="person">
-        <div id = "pic">
-          <img src="https://randomuser.me/api/portraits/med/women/12.jpg" alt="Person 5">
-        </div>
-        <div id="info">
-          <div id="name">
-            Amy G.
-          </div>
-          <div>
-            Harvard University
-          </div>
-        </div>
-      </div>
+      <form id="form">
+      </form>
+    </div>
+      <div id="artists">
     </div>
   </body>
 </html>
