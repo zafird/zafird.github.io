@@ -1,0 +1,84 @@
+#person:hover{
+  background-color: lightgray;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    border:2px solid #ECF0F1;
+}
+
+#headerContainer{
+  border:2px solid #ECF0F1;
+  margin: auto;
+  width: 60%;
+}
+
+#inputAndButton{
+	display: flex;
+}
+
+#header{
+
+  font-family: 'Poppins', sans-serif;
+  margin-left: 0.5em;
+}
+
+#pic{
+  padding: 9px;
+  flex: 0 0 13%
+}
+
+#info{
+  flex:1;
+  font-family: 'Poppins', sans-serif;
+}
+
+#name{
+  font-weight: 600;
+}
+
+#main{
+  width: 605px;
+  margin:auto;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+}
+
+input{
+ margin: 0 auto;
+    display: block;
+}
+
+#inputField{
+ float: left;
+  padding-left: 10%;
+}
+
+button{
+background-color: #D3D3D3;
+}
+
+
+#about{
+display: inline;
+}
+
+#delete {
+  background-color: #FF0000;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: right;
+margin-bottom: 25px;
+float: right;
+margin: 0;
+display: inline;
+border-radius: 8px;
+}
